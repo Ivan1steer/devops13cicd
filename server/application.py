@@ -2,7 +2,7 @@ import http.server
 import socketserver
 PORT = 8000
 class TestMe():
-"""Класс для тестирования функциональности сервера."""
+    """Класс для тестирования функциональности сервера."""
     def take_five(self):
         """Возвращает число 4."""
         return 4
