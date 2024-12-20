@@ -1,8 +1,9 @@
-import http.server
-import socketserver
 """
 Модуль для запуска простого HTTP-сервера на порту 8000.
 """
+import http.server
+import socketserver
+
 PORT = 8000
 class TestMe():
     """Класс для тестирования функциональности сервера."""
